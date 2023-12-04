@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCS.CarSimulator.Console", "NCS.CarSimulator.Console\NCS.CarSimulator.Console.csproj", "{750C8E77-D602-4172-9700-F61756089D98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCS.CarSimulator.Domain", "NCS.CarSimulator.Service\NCS.CarSimulator.Domain.csproj", "{EFC627A0-5E23-4BFE-A958-17FBE8630378}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCS.CarSimulator.Domain", "NCS.CarSimulator.Domain\NCS.CarSimulator.Domain.csproj", "{EFC627A0-5E23-4BFE-A958-17FBE8630378}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCS.CarSimulator.Test", "NCS.CarSimulator.Test\NCS.CarSimulator.Test.csproj", "{54287CF7-6682-44B1-9746-53E97F4C3FBF}"
 EndProject

@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NCS.CarSimulator.Service\NCS.CarSimulator.Domain.csproj" />
+    <ProjectReference Include="..\NCS.CarSimulator.Domain\NCS.CarSimulator.Domain.csproj" />
   </ItemGroup>
 
 </Project>
