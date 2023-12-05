@@ -18,21 +18,8 @@ Properties
 \.vs
 \packages
 \packages\**\*.*
-/deploy/az/sql/DACPAC/*.dll
-/deploy/az/sql/DACPAC/*.pdb
-/deploy/az/sql/DACPAC/*.dacpac
 bower_components
 node_modules
 
 Publish
 
-
-/deploy/az/sql/DACPAC_1_0/Capassa.Registration.Database.pdb
-/deploy/az/sql/DACPAC_1_0/Capassa.Registration.Database.dll
-/deploy/az/sql/DACPAC_1_0/Capassa.DigitalCFO.SyncDatabase.dacpac
-/deploy/az/sql/DACPAC_1_0/Capassa.DigitalCFO.RegistrationDatabase.dacpac
-/deploy/az/sql/DACPAC_1_0/Capassa.DigitalCFO.FinanceDatabase.dacpac
-/deploy/az/sql/DACPAC_1_0/Capassa.DigitalCFO.AdminDatabase.dacpac
-/deploy/az/sql/DACPAC_1_0/Capassa.ClientFinance.Database.pdb
-/deploy/az/sql/DACPAC_1_0/Capassa.ClientFinance.Database.dll
-/deploy/az/sql/DACPAC_1_0
