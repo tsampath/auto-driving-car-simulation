@@ -49,7 +49,7 @@ namespace NCS.CarSimulator.Console
             // Field Dimensions
             do
             {
-                System.Console.WriteLine("Enter the field dimensions (width height):");
+                System.Console.WriteLine("Enter the field dimensions (width and height [sample input: 10 10]):");
                 string[] fieldDimensions = System.Console.ReadLine().Split(' ');
 
                 if (!this.InputValidatorService.IsValidFieldDimensions(fieldDimensions, out width, out height))
@@ -68,7 +68,7 @@ namespace NCS.CarSimulator.Console
             // Initial Position
             do
             {
-                System.Console.WriteLine("Enter the initial position and direction of the car (x y direction):");
+                System.Console.WriteLine("Enter the current position and direction of the car (Sample imput: 1 2 N ):");
                 string[] initialPosition = System.Console.ReadLine().Split(' ');
 
                 if (!this.InputValidatorService.IsValidInitialPosition(initialPosition, out x, out y, out direction, width, height))
@@ -85,7 +85,7 @@ namespace NCS.CarSimulator.Console
             // Commands
             do
             {
-                System.Console.WriteLine("Enter the commands:");
+                System.Console.WriteLine("Enter the subsequent commands (Sample imput: FFRFFFRRLF):");
                 commands = System.Console.ReadLine();
 
                 if (string.IsNullOrWhiteSpace(commands) || !this.InputValidatorService.IsValidCommands(commands))
